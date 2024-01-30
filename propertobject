@@ -1,0 +1,14 @@
+function numberOfPropert(object){
+
+    const findnumberofpropert=Object.keys(object).length
+
+    return findnumberofpropert
+
+}
+ let fruits={
+      mango:"yellow",
+      avocado:"green",
+      tomatos:"red"
+}
+let resulte=numberOfPropert(fruits)
+console.log(resulte)
